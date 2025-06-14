@@ -83,3 +83,5 @@ server.listen(3000, '127.0.0.1', () => {
 
 
 // const name:string = 'Arsal'
+
+// 3000/products
