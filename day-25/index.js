@@ -53,7 +53,6 @@ import { createServer } from 'http';
 const server = createServer((req, res) => {
     const requestType = req.method
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-
     switch (requestType) {
         case 'GET':
             res.end('This is Get Request Response');
@@ -85,3 +84,4 @@ server.listen(3000, '127.0.0.1', () => {
 // const name:string = 'Arsal'
 
 // 3000/products
+
